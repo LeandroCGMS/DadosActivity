@@ -21,5 +21,15 @@
             android:layout_marginStart="58dp"
             android:layout_marginTop="47dp"
             android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/texto2Id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textoId"
+            android:layout_alignStart="@+id/textoId"
+            android:layout_below="@+id/textoId"
+            android:layout_marginTop="71dp"
+            android:textSize="30sp" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

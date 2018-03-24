@@ -24,6 +24,7 @@ public class MainActivity extends Activity {
 
                 Intent intent = new Intent(MainActivity.this, SegundaActivity.class);
                 intent.putExtra("nome","Jamilton Damasceno");
+                intent.putExtra("senha","123");
 
                 startActivity(intent);
             }
